@@ -1,0 +1,236 @@
+@font-face {
+     
+    font-family: 'Roboto';
+    src: url(http://fonts.gstatic.com/s/roboto/v15/mErvLBYg_cXG3rLvUsKT_fesZW2xOQ-xsNqO47m55DA.woff2);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+main{
+    display: flex;  
+    background-color: black;
+    width: 100vw;
+    height: 3000px;
+    flex-direction: column;
+}
+header{
+    width: 100vw;
+    height: 80px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 0 165px;
+}
+nav{
+    font-size: 20px;
+    width: 674px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+}
+footer{
+    display: flex;
+    width: 100vw;
+    height: 101px;
+    background-color: rgba(76, 88, 102, 1);
+    align-content: stretch;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 165px;
+
+}
+.block1{
+    display: flex;
+    background-color: #ffff;
+    width: 100vw;
+    height: 620px;
+    padding: 0 165px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.block1-1{
+    display: flex;
+    height: 361px;
+    width: 445px;
+    flex-direction:column;
+    justify-content: space-between;
+}
+.block1-2{
+    display: flex;
+    height: 100%;
+    width: 35%;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+.text1{
+    font-size: 50px;
+}
+.text2{
+    color: rgba(133, 133, 155, 1);
+    font-size: 20px;
+}
+.katalog{   
+    height: 70px;
+    width: 255px;
+    color: rgba(120, 117, 254, 1); 
+    font-size: 20px;
+    border: 1px solid rgba(120, 117, 254, 1)
+}
+.textkatalog{
+    font-size: 1px;
+}
+.j{
+    padding: 90px 165px;
+    display: flex;  
+    width: 100vw;
+    height: 973px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    background: rgba(235, 235, 235, 1);
+}
+.j1{
+    width: 80%;
+    height: 90%;
+}
+.j2{
+    display: flex;
+    width: 100%;
+    height: 25%;
+}
+.j3{
+    display: flex;
+    width: 100%;
+    height: 75%;
+   
+}
+.obucenie{
+    display: flex;
+
+}
+.p1{
+    font-size: 40px;
+    color:rgba(102, 102, 102, 1);
+    ;
+}
+.p2{
+    font-size: 20px;
+    color: rgba(133, 133, 155, 1);
+
+}
+.j3-1{ 
+    height: 445px;
+    width: 350px;
+}
+.j3-2{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+     height: 100%;
+    width: 60%;
+}
+.box{
+    width: 800px;
+    height: 500px;
+    
+}
+.j4{
+    display: flex;
+    width: 100vw;
+    height: 645px;
+    background: rgba(255, 255, 255, 1);
+    padding: 90px 165px;
+    justify-content: space-evenly;
+}
+.j4-1{
+    width: 255px;
+    height: 100%;
+}
+.j4-2{
+    width: 255px;
+    height: 100%;
+}
+.j4-3{
+    width: 255px;
+    height: 100%;
+}
+.j4-4{
+    width: 255px;
+    height: 100%;
+}
+.text3{
+    font-size: 30px;
+}
+.text4{
+    font-size: 14px;
+    color: rgba(181, 181, 189, 1);
+}
+.text5{
+    font-size: 18px;
+    color: rgba(133, 133, 155, 1);
+}
+.text6{
+    font-size: 20px;
+    width: 104px;
+    color: rgba(120, 117, 254, 1);
+}
+.div1{
+    display: flex;
+}
+.j5{
+    width: 100vw;
+    height: 315px;
+    background: rgba(235, 235, 235, 1);
+    padding: 90px 0;
+}
+.j5-1{
+    width: 100vw;
+    height: 135px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 165px;
+}
+.j6{
+    display: flex;
+    width: 100vw;
+    height: 500px;
+    background: rgba(255, 255, 255, 1);
+    padding: 90px 165px;
+    justify-content: space-between;
+}
+.j6-1{
+    width: 350px;
+    height: 272px;
+   display: flex;
+   flex-direction:column;
+   justify-content: space-evenly;
+}
+.j6-2{
+    display: flex;
+    width: 730px;
+    height: 430px;
+    align-content: flex-start;
+    flex-wrap: wrap
+}
+.simp{
+    background: rgba(255, 255, 255, 1);
+    width: 100vw;
+    height: 23px;
+    display: flex;
+    justify-content: center ;
+}
+.j6-11{
+    display: flex;
+    width: 2000px;
+}
+.null{
+    width: 100vw;
+    height: 90px;
+}
